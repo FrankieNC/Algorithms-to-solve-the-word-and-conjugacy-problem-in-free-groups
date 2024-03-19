@@ -7,5 +7,4 @@ where $x_{i_j}$ is an element of the set $X \cup \{x^{-1} : x\in X\}$ and $\vare
 $$w = [[i_1, \varepsilon_1], [i_2, \varepsilon_2], \ldots, [i_k, \varepsilon_k]].$$
 We have opted for this representation in Python because utilising letters from the alphabet would impose limitations on the number of generators permitted in our group.
 
-In this coding scheme, uppercase letters represent the inverse elements. For instance, the inverse of $x_i$ is denoted as $X_i$. When prompted to input words using this code, each letter must be separated by whitespace. For example, if we wish to input the word $w=x_1^{-1} x_2 x_3^{-1} x_4$, it should be written as:
-\verb+X1 x2 X3 x4+.
+In this coding scheme, uppercase letters represent the inverse elements. For instance, the inverse of $x_i$ is denoted as $X_i$. When prompted to input words using this code, each letter must be separated by whitespace. For example, if we wish to input the word $w=x_1^{-1} x_2 x_3^{-1} x_4$, it should be written as: X1 x2 X3 x4.
