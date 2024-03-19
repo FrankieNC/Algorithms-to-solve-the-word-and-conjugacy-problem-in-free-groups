@@ -3,7 +3,7 @@ I coded these algorithms as part of my thesis work for the King's College London
 
 In our algorithms, we adopt a specific representation for words. A word is expressed in the form:
 $$w = x_{i_1}^{\varepsilon_1}x_{i_2}^{\varepsilon_2}\cdots x_{i_k}^{\varepsilon_k}$$
-where $x_{i_j}$ is an element of the set $X \cup \{x^{-1} : x\in X\}$ and \( \varepsilon_h \in \left\{ -1,1 \right\}.$ We represent this word using an array:
+where $x_{i_j}$ is an element of the set $X \cup \{x^{-1} : x\in X\}$ and $\varepsilon_h \in \left\{ -1,1 \right\}.$ We represent this word using an array:
 $$w = [[i_1, \varepsilon_1], [i_2, \varepsilon_2], \ldots, [i_k, \varepsilon_k]].$$
 We have opted for this representation in Python because utilising letters from the alphabet would impose limitations on the number of generators permitted in our group.
 
