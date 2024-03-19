@@ -1,0 +1,22 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Algorithms for word and conjugacy problems in free groups
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Francesco Nishanil
+    family-names: Chotuck
+    email: fchotuck@gmail.com
+identifiers:
+  - type: url
+    value: >-
+      https://github.com/FrankieNC/Algorithms-to-solve-the-word-and-conjugacy-problem-in-free-groups
+    description: GitHub repository
+repository-code: >-
+  https://github.com/FrankieNC/Algorithms-to-solve-the-word-and-conjugacy-problem-in-free-groups
+version: '1.0'
+date-released: '2024-03-19'
